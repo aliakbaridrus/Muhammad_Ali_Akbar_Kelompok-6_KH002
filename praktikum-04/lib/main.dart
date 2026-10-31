@@ -25,15 +25,15 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Variabel d dari digit terakhir NIM (20240801218 -> 8)
-    final int d = 8;
+    const int d = 8;
 
     // Perhitungan ukuran berdasarkan NIM (d = 8)
-    final double cardPadding = 16.0 + d;      // 24.0 px
-    final double cardRadius = 8.0 + d;        // 16.0 px
-    final double buttonHeight = 40.0 + d;     // 48.0 px
-    final double buttonRadius = 4.0 + d;      // 12.0 px
-    final double avatarSize = 40.0 + (2 * d); // 56.0 px
-    final double nameNimSpacing = 8.0 + d;    // 16.0 px
+    const double cardPadding = 16.0 + d;      // 24.0 px
+    const double cardRadius = 8.0 + d;        // 16.0 px
+    const double buttonHeight = 40.0 + d;     // 48.0 px
+    const double buttonRadius = 4.0 + d;      // 12.0 px
+    const double avatarSize = 40.0 + (2 * d); // 56.0 px
+    const double nameNimSpacing = 8.0 + d;    // 16.0 px
 
     return Scaffold(
       appBar: AppBar(
@@ -48,7 +48,7 @@ class ProfilePage extends StatelessWidget {
               borderRadius: BorderRadius.circular(cardRadius),
             ),
             child: Padding(
-              padding: EdgeInsets.all(cardPadding),
+              padding: const EdgeInsets.all(cardPadding),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -66,7 +66,7 @@ class ProfilePage extends StatelessWidget {
 
                   // 2. Nama lengkap (menggunakan Text biasa tanpa style)
                   const Text('Muhammad Ali Akbar'),
-                  SizedBox(height: nameNimSpacing),
+                  const SizedBox(height: nameNimSpacing),
 
                   // 3. NIM
                   const Text('20240801218'),
@@ -77,14 +77,16 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 8),
 
                   // 5. Deskripsi singkat tentang diri sendiri
-                  const Text('Mahasiswa aktif Informatika Universitas Esa Unggul yang tertarik pada pengembangan perangkat lunak.'),
+                  const Text(
+                    'Mahasiswa aktif Informatika Universitas Esa Unggul yang tertarik pada pengembangan perangkat lunak.',
+                  ),
                   const SizedBox(height: 16),
 
                   // 6. Tombol Kunjungi GitHub Saya
-                  AppButton(
+                  const AppButton(
                     label: 'Kunjungi GitHub Saya',
                     icon: Icons.code,
-                    url: 'https://github.com/muhammadaliakbar', // Sesuaikan username GitHub Anda jika perlu
+                    url: 'https://github.com/aliakbaridrus',
                     height: buttonHeight,
                     borderRadius: buttonRadius,
                   ),
