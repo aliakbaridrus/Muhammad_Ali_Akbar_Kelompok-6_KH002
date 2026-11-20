@@ -1,0 +1,17 @@
+{
+    "@@locale": "id",
+    "appTitle": "Direktori Mahasiswa & Admin",
+    "detailTitle": "Detail Pengguna",
+    "adminDetailTitle": "Detail Admin",
+    "email": "Email",
+    "city": "Kota",
+    "department": "Departemen",
+    "language": "Bahasa",
+    "errorMessage": "Gagal mengambil data",
+    "retry": "Coba lagi",
+    "noData": "Tidak ada data pengguna ditemukan",
+    "noAdminData": "Tidak ada data admin ditemukan",
+    "usersTab": "Daftar User",
+    "adminsTab": "Daftar Admin",
+    "deleteAdmin": "Hapus Admin"
+}

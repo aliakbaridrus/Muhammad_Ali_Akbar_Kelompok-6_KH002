@@ -1,0 +1,31 @@
+name: praktikum_08
+description: "A new Flutter project for Praktikum 08 (User & Admin CRUD API)."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^2.0.0
+  http: ^1.6.0
+  path_provider: ^2.1.6
+  url_launcher: ^6.3.3
+  intl: ^0.20.3
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true

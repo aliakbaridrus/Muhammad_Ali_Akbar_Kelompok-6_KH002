@@ -1,0 +1,17 @@
+{
+    "@@locale": "en",
+    "appTitle": "Student & Admin Directory",
+    "detailTitle": "User Details",
+    "adminDetailTitle": "Admin Details",
+    "email": "Email",
+    "city": "City",
+    "department": "Department",
+    "language": "Language",
+    "errorMessage": "Failed to retrieve data",
+    "retry": "Try Again",
+    "noData": "No user data available",
+    "noAdminData": "No admin data available",
+    "usersTab": "User List",
+    "adminsTab": "Admin List",
+    "deleteAdmin": "Delete Admin"
+}
